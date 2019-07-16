@@ -1,0 +1,72 @@
+/* CSS Assignment 6 for html_assignment_7 */
+body {
+        background-color: #FF5733;
+     }
+
+#heading  {
+            font-size: 50px;
+            font-family: 'Orbitron', sans-serif;
+            font-weight: bolder;
+            letter-spacing: 5px;
+            text-align: center;
+            background-color: #89072C;
+            color: white;
+            border: 5px solid #B80438;
+            margin: 0px;
+          }
+
+#canvas {
+          background-color: white;
+          border: 5px solid #C70039;
+          width: 342px;
+          height: 375px;
+          margin-left: 36%;
+        }
+
+a {
+    text-decoration: none;
+    color: #C70039;
+  }
+
+.block:hover {
+                background-color: #FFC300;
+                color: white;
+             }
+
+.block  {
+          border: 2px solid #C70039;
+          width: 110px;
+          height: 110px;
+          font-family: 'Oxygen', sans-serif;
+          font-size: 80px;
+          text-align: center;
+          float: left;
+          color: #C70039;
+        }
+
+ button:hover {
+                background: gray;
+                color: white;
+                outline: none;
+                border: 2px solid black;
+                text-align: center;
+                margin-left: 45%;
+              }
+
+button {
+        outline: none;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 20px;
+        margin-left: 45%;
+        padding: 5px;
+       }
+
+#result {
+          background-color: #C70039;
+          color: white;
+          margin: 0px;
+          font-size: 30px;
+          font-weight: bolder;
+          text-align: center;
+        }
